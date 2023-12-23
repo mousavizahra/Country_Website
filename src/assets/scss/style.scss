@@ -1,0 +1,36 @@
+.index{
+    background-color: #F9F9F9;
+    .Header{
+        background-color: #fff;
+        height: 60px;
+        p{
+            padding-top: 15px;
+            padding-left: 30px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+        .search{
+            margin-top: 60px;
+            width: 25%;
+            margin-left: 50px;
+            Input{
+                height: 40px;
+                padding-left: 5px;
+            }
+        }
+        .dropdown{
+            float: right;
+            margin-top: -40px;
+        }
+   
+    .cards{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-top: 50px;
+        margin-left: 35px;
+        .card{
+            text-decoration: none;
+        }
+    }
+}
